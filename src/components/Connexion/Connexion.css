@@ -1,0 +1,53 @@
+.divForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.divForm label {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.2em;
+}
+
+.divForm span {
+    font-weight: 500;
+}
+
+.divForm button {
+    cursor: pointer;
+}
+
+.divForm {
+    border: 1px solid transparent;
+    /* background-color: rgb(239, 239, 239); */
+    background-color: rgba(239, 239, 239, 0.66);
+    width: fit-content;
+    padding: 2.5em;
+    box-shadow: 0px 5px 5px 0px grey;
+    margin: auto;
+    margin-top: 5em;
+}
+
+.divForm button {
+    padding: 0.5em 2em;
+    font-size: 1em;
+    background-color: rgb(26, 26, 132);
+    border-radius: 5px;
+    color: white;
+    border: transparent;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.divForm button:hover {
+    background-color: rgb(35, 35, 175);
+}
+
+.divForm input {
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid black;
+}

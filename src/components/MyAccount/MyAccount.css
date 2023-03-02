@@ -1,0 +1,42 @@
+.card {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 5px 5px 0px grey;
+    width: 35em;
+    margin: auto;
+    padding: 3em 1em;
+    margin-top: 6.5em;
+}
+
+.card span {
+    font-style: italic;
+}
+
+.editBtn {
+    margin-top: 5em;
+}
+
+.editBtn button {
+    padding: 0.7em 2.5em;
+    font-size: 1em;
+    background-color: rgb(26, 26, 132);
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.editBtn button:hover {
+    background-color: rgb(35, 35, 175);
+}
+
+.imgAcc {
+    position: absolute;
+    left: 45em;
+    margin-top: 1.5em;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px 0px grey;
+    background-color: whitesmoke;
+}

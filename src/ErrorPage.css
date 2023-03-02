@@ -1,0 +1,29 @@
+.divError {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.645), rgba(0, 0, 0, 0.649)), url("../src/img/glitch2.jpg");
+    color: white;
+    font-weight: 500;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.divError h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.divError p {
+    font-size: 1.2em;
+}
+
+.linksError {
+    display: flex;
+    gap: 2em;
+}
+
+.linksError a {
+    color: white;
+}

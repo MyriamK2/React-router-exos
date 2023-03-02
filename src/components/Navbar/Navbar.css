@@ -1,0 +1,45 @@
+nav ul {
+    display: flex;
+    /* gap: 8em; */
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+nav {
+    border: 1px solid rgb(26, 26, 132);
+    box-shadow: 0px 5px 5px 0px grey;
+    background-color: rgb(26, 26, 132);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+}
+
+.navRight {
+    display: flex;
+    gap: 2em;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 0.5em 1em;
+}
+
+.navRight a:hover {
+    margin-bottom: -10px;
+}
+
+.divAcc {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.divAcc a:hover {
+    margin-bottom: -7px;
+}
