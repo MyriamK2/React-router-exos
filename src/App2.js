@@ -2,10 +2,10 @@ import './App.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { useState } from 'react';
 
-import Accueil from './components/Accueil';
-import About from './components/About';
+import Accueil from './components/Accueil/Accueil';
+import About from './components/About/About';
 import Liste from './components/Liste/Liste';
-import ElementListe from './components/ElementListe';
+import ElementListe from './components/ElementListe/ElementListe';
 import ImbricationTest from './components/ImbricationTest/ImbricationTest';
 import Child1 from './components/ImbricationTest/Child1/Child1';
 import Child2 from './components/ImbricationTest/Child2/Child2';
